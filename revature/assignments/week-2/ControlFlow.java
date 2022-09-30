@@ -68,8 +68,13 @@ public class ControlFlow{
 	public static String echo(String word, int times){
 
 		// logic
-
-		return "";
+		String newWord = " ";
+		
+		for(int i = 0; i < times; i++){
+				newWord += word;
+				newWord += " ";
+		}
+		return newWord;
 	}
 
 	/*
@@ -78,8 +83,12 @@ public class ControlFlow{
 	public static boolean isEven(String s){
 		
 		// logic
-
+		int lenNum = s.length();
+		if (lenNum % 2 == 0){
+			return true;
+		}else{
 		return false;
+		}
 	}
 
 	/*

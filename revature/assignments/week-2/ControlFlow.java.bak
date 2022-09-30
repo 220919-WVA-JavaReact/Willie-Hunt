@@ -57,7 +57,7 @@ public class ControlFlow{
 		int sum = 0;
 		int i;
 		
-		for (i = 0; i < intArr.lenght; i++)
+		for (i = 0; i < intArr.length; i++)
 			sum += intArr[i];
 		return sum;
 	}
@@ -78,6 +78,9 @@ public class ControlFlow{
 	public static boolean isEven(String s){
 		
 		// logic
+		String word = "";
+		int a;
+		
 
 		return false;
 	}

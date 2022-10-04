@@ -1,0 +1,65 @@
+package com.revature.collections.exercises;
+
+public class LinkedList {
+
+    /*
+    Below is a list of exercises to help you get familiar with working with the ArrayList Collection
+     */
+    public static void main(String[] args) {
+
+        // 1. Write a Java program to append the specified element to the end of a linked list. Add several values.
+		
+		LinkedList<int> nums = new LinkedList<int>;
+		nums.add(2);
+		nums.add(4);
+		nums.add(6);
+		nums.add(8);
+		nums.add(10);
+		nums.add(12);
+		nums.addLast(14);
+		
+        // 2. Write a Java program to iterate through all elements in a linked list.
+		
+		for ( int i = 0; i < nums.size(); i++) {
+			System.out.println(nums.get(i) + " ");
+		}
+		
+
+        // 3. Write a Java program to iterate a linked list in reverse order
+
+		Iterator<int> iter = new linkedList.descendingIterator();
+		while (iter.hasNext()) {
+			System.out.println(iter.next());
+		}
+		
+		
+
+        // 4.  Write a Java program to insert the specified element at the front of a linked list
+		
+		nums.addFirst(0);
+		
+		
+
+        // 5. Write a Java program to insert some elements at the specified position into a linked list.
+		
+		nums.add(3, 11);
+		
+
+        // 6. Write a Java program to get the first and last occurrence of the specified elements in a linked list.
+		nums.get(0);
+		nums.get(8);
+		
+		
+
+        // 7. Write a Java program to check if a particular element exists in a linked list.
+		nums.contains(16);
+		nums.contains(4);
+		
+		
+
+        // 8. Write a Java program to convert a linked list to array list.
+		List<int> numbers = new ArrayList<int>(nums);
+
+
+    }
+}
